@@ -81,3 +81,41 @@ DELETE /users/10
 
 
 👉 Check: Auth + authorization. Often broken.
+5️⃣ HTTP Status Codes (Know These Cold)
+✅ 200 OK
+
+Request succeeded
+
+🔁 301 Moved Permanently
+
+Permanent redirect
+
+SEO + cache sensitive
+
+👉 Bug: Open Redirect
+
+🔐 401 Unauthorized
+
+Authentication required
+
+No/invalid token
+
+👉 Check: Can you bypass?
+
+⛔ 403 Forbidden
+
+Authenticated but not allowed
+
+👉 Pentest goal: Turn 403 → 200
+
+💥 500 Internal Server Error
+
+Server crash
+
+👉 Goldmine:
+
+Stack traces
+
+DB errors
+
+Sensitive paths
